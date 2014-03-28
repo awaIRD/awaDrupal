@@ -2,9 +2,18 @@ name = AWA Theme
 base theme = responsive
 description = AWA responsive theme, sub theme of Premium Responsive. Made by Mathilde Vienne.
 core = 7.x
-engine = phptemplate
 stylesheets[all][] = style.css
-stylesheets[all][] = color/colors.css
+regions[sidebar_first]  = First Sidebar
+regions[header]         = Header
+regions[front_welcome]  = Front Welcome
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[help]           = Help
+regions[footer]         = Footer
+regions[footer_first]   = First Bottom
+regions[footer_second]  = Second Bottom
+regions[footer_third]   = Third Bottom
+regions[footer_fourth]  = Fourth Bottom
 
 ; Information added by drupal.org packaging script on 2013-09-02
 version = "7.x-1.7"
