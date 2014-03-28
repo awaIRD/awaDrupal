@@ -899,8 +899,8 @@ h3.comment-title a{
 .site-slogan{
 	color: #E63D31; /* AWA change */
 	border-left-width: 0;
-    float: right;
-    margin: -80px auto auto 0;
+    float: left;
+    margin: -75px auto auto 80px;
     padding-left: 0;
-    width: 225px;
+    width: 240px;
 }
