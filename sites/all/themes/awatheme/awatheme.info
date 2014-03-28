@@ -3,6 +3,8 @@ base theme = responsive
 description = AWA responsive theme, sub theme of Premium Responsive. Made by Mathilde Vienne.
 core = 7.x
 stylesheets[all][] = style.css
+stylesheets[all][] = color/colors.css
+
 regions[sidebar_first]  = First Sidebar
 regions[header]         = Header
 regions[front_welcome]  = Front Welcome

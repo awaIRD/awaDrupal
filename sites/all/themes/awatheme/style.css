@@ -265,11 +265,11 @@ h6 {
   float: left;
   width: 100%;
   background: #fff;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 #headright {
-  background: #214467;
+  background: #384795!important;
   float: right;
 }
 
@@ -471,7 +471,7 @@ ul.social li {
 
 .sidebar .block > h2 {
   font-family: Bitter, Helvetica, Arial, sans-serif;
-  background: #214468;
+  background: #384795 !important;
   color: #fff;
   font-size: 14px;
   margin-bottom: 10px;
