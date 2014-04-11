@@ -354,7 +354,7 @@ ul.social li {
 #main-menu li li a,
 #main-menu li li a:link,
 #main-menu li li a:visited {
-  background-color: #12263B;
+  background-color: #48519B!important;
   border-top-width: 0;
   color: #e7e7e7;
   font-size: 13px;
