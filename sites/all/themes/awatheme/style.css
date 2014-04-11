@@ -341,7 +341,7 @@ ul.social li {
 #main-menu li a:hover,
 #main-menu li a:active,
 #main-menu a.active{
-  color: #fff;
+  color: #E63D31;
 }
 
 #main-menu li a .sf-sub-indicator {
@@ -903,4 +903,9 @@ h3.comment-title a{
     margin: -75px auto auto 80px;
     padding-left: 0;
     width: 240px;
+}
+
+div#block-locale-language ul li{
+	padding-right: 5px;
+	display: inline;
 }
