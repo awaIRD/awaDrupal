@@ -308,7 +308,7 @@ ul.social li {
 
 #navigation {
   margin: 0px auto;
-  float: right;
+  float: left;
 }
 
 #main-menu {
@@ -341,7 +341,7 @@ ul.social li {
 #main-menu li a:hover,
 #main-menu li a:active,
 #main-menu a.active{
-  color: #E63D31;
+  color: #E63D31 !important;
 }
 
 #main-menu li a .sf-sub-indicator {
@@ -354,7 +354,7 @@ ul.social li {
 #main-menu li li a,
 #main-menu li li a:link,
 #main-menu li li a:visited {
-  background-color: #48519B!important;
+  background-color: #384795!important;
   border-top-width: 0;
   color: #e7e7e7;
   font-size: 13px;
