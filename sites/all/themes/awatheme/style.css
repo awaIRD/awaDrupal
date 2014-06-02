@@ -188,6 +188,7 @@ a:hover {
 
 p {
   margin: 0 0 0.8em;
+  text-align: justify;
 }
 
 strong {
@@ -909,3 +910,28 @@ div#block-locale-language ul li{
 	padding-right: 5px;
 	display: inline;
 }
+
+/* contact block */
+div#block-block-2.block {
+    float: left;
+    margin-right: 20px;
+    padding-right: 5px;
+    width: 40%;
+}
+
+div#block-block-1.block {
+    float: left;
+}
+
+form#contact-site-form.contact-form div div.form-item label {
+	clear: both;
+}
+
+input#edit-search-block-form--2.form-text{
+	width: 50%;
+}
+
+html.js body.html div#content-contain.container div#content.eleven section#post-content div.region div#block-system-main.block div.content div.content div.field div.field-items{
+	width: 100%;
+}
+
