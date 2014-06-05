@@ -258,7 +258,7 @@ h6 {
 }
 
 #content-contain {
-  padding: 0px 0px 25px 0px;
+  /*padding: 0px 0px 25px 0px;*/
   background: #fff;
 }
 
@@ -521,7 +521,8 @@ div#languages {
 
 #copyright {
   background: #3E3742;
-  padding: 25px 0px;
+  padding-top: 10px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -914,8 +915,7 @@ h3.comment-title a{
 }
 
 div#block-locale-language ul li, div#languages ul li{
-	margin-left: 5px!important;
-    margin-right: 5px;
+	padding: 0 0.5em;
 	display: inline;
 }
 
@@ -942,4 +942,38 @@ input#edit-search-block-form--2.form-text{
 html.js body.html div#content-contain.container div#content.eleven section#post-content div.region div#block-system-main.block div.content div.content div.field div.field-items{
 	width: 100%;
 }
+/*footer*/
+html.js body.html div#content-contain.container div#foot.sixteen{
+	width: 100%;
+	margin-left: 0;
+    margin-right: 0;
+    background-color: #3E3742;
+    height: 20px;
+	
+}
+html.js body.html div#content-contain.container div#foot.sixteen div.region div#block-menu-menu-footer-menu.block h2{
+	display: none!important;
+}
 
+html.js body.html div#content-contain.container div#foot.sixteen div.region{
+	background-color: #3E3742;
+}
+html.js body.html div#content-contain.container div#foot.sixteen div.region div#block-menu-menu-footer-menu.block{
+	margin-bottom: 0;
+}
+.container .sixteen.columns {
+    width: 100%;
+}
+html.js body.html div#content-contain.container div#foot.sixteen div.region div#block-menu-menu-footer-menu.block div.content ul.menu{
+	text-align: center;
+}
+html.js body.html div#content-contain.container div#foot.sixteen div.region div#block-menu-menu-footer-menu.block div.content ul.menu li{
+	display: inline;
+	padding: 0 0 0.5em;
+	color: white;
+	text-decoration: underline;
+}
+html.js body.html div#content-contain.container div#foot.sixteen div.region div#block-menu-menu-footer-menu.block div.content ul.menu li a{
+	color: white;
+	padding-right: 1em;	
+}
