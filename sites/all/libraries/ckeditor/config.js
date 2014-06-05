@@ -35,4 +35,8 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+	
+	//skins available
+	config.skin = 'office2003';
+	config.skin = 'bootstrapck';
 };
