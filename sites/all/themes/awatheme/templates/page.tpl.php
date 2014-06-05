@@ -76,6 +76,15 @@
     </hgroup>
     
     <div class="eleven columns omega" id="headright">
+      
+      <!-- custom section-->
+      <div id="languages">
+		  <?php 
+			$block = module_invoke('locale', 'block_view', 'language');
+			print $block['content']; 
+		?>
+	  </div>
+	   <!-- custom section-->
       <?php if (theme_get_setting('socialicon_display', 'responsive')): ?>
       <?php 
       $twitter_url = check_plain(theme_get_setting('twitter_url', 'responsive')); 
@@ -92,6 +101,7 @@
       <?php if ($linkedin_url): ?><li> <a href="<?php print $linkedin_url; ?>" target="_blank"> <img src="<?php print $theme_path_social; ?>/images/in.png"> </a> </li> <?php endif; ?>
       <li> <a href="<?php print $front_page; ?>rss.xml"> <img src="<?php print $theme_path_social; ?>/images/rss.png"> </a> </li>
         </ul>
+      
       </div>
       <?php endif; ?>
       

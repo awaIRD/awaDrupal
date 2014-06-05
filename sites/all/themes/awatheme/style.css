@@ -276,17 +276,24 @@ h6 {
 
 #socialbar {
   height: 60px;
+  float: right;
 }
 
 ul.social {
   list-style: none;
   margin: 20px 10px 0px 10px;
-  float: right;
 }
 
 ul.social li {
   float: left;
   margin-left: 10px;
+
+}
+
+div#languages {
+    float: left;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 #logo {
@@ -906,8 +913,9 @@ h3.comment-title a{
     width: 240px;
 }
 
-div#block-locale-language ul li{
-	padding-right: 5px;
+div#block-locale-language ul li, div#languages ul li{
+	margin-left: 5px!important;
+    margin-right: 5px;
 	display: inline;
 }
 

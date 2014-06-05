@@ -53,7 +53,7 @@ function ttsm_theme_preprocess_html(&$variables, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ttsm_theme_preprocess_page(&$variables, $hook) {
+function awatheme_preprocess_page(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -67,7 +67,7 @@ function ttsm_theme_preprocess_page(&$variables, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ttsm_theme_preprocess_node(&$variables, $hook) {
+function awatheme_preprocess_node(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
@@ -88,7 +88,7 @@ function ttsm_theme_preprocess_node(&$variables, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function ttsm_theme_preprocess_comment(&$variables, $hook) {
+function awatheme_preprocess_comment(&$variables, $hook) {
   $variables['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -130,3 +130,4 @@ function ttsm_theme_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+?>
