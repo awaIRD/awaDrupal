@@ -141,3 +141,13 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+
+php_value upload_max_filesize 300M
+php_value post_max_size 300M
+php_value memory_limit 32M
+
+# MIME types for Video
+AddType video/mp4 mp4 m4v f4v f4p
+AddType video/ogg ogv
+AddType video/webm webm
+AddType video/x-flv flv
