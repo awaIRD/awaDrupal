@@ -230,7 +230,7 @@ h6 {
   font-weight: 700;
   padding: 0;
   margin: 0px 0px 10px 0px;
-  color: #384795;
+  color: #384795!important;
 }
 
 
@@ -658,7 +658,7 @@ ul.primary {
 }
 
 ul.primary li a {
-  background: none;
+  /*background: none;*/
   border: none;
   display: block;
   float: left;
@@ -667,16 +667,17 @@ ul.primary li a {
   padding: 0 1em;
   border-radius: 4px 4px 0 0;
   margin-right: 5px;
+  color: #384795;
 }
 
 ul.primary li a:hover, ul.primary li a.active {
-  background: #666;
+  background: #384795;
   border: none;
   color: #fff;
 }
 
 ul.primary li a:hover {
-  background: #888;
+  background: #384795;
   text-decoration: none;
 }
 
