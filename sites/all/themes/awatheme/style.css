@@ -173,7 +173,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #384795! important;
+  color: #384795;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
@@ -481,7 +481,7 @@ div#languages {
 .sidebar .block > h2 {
   font-family: Bitter, Helvetica, Arial, sans-serif;
   background: #384795 !important;
-  color: #fff;
+  color: #fff!important;
   font-size: 14px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -673,7 +673,7 @@ ul.primary li a {
 ul.primary li a:hover, ul.primary li a.active {
   background: #384795;
   border: none;
-  color: #fff;
+  color: #fff!important;
 }
 
 ul.primary li a:hover {
@@ -993,4 +993,8 @@ div stays `position: absolute` we're okay */
     top: 50%; /* errrr, why isn't the play button centered in the default skin? :) */
     left: 50%;
     margin:-4em 0 0 -6em; /* the old negative margin trick */
+}
+
+html.js body.html div#content-contain.container div#content.eleven div#breadcrumbs nav.breadcrumb a {
+	color: #384795;
 }
