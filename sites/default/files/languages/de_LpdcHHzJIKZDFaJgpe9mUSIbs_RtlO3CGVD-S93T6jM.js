@@ -1,0 +1,1 @@
+Drupal.locale = { 'pluralFormula': function ($n) { return Number(($n!=1)); }, 'strings': {"":{"Edit":"Bearbeiten","Configure":"Konfigurieren","Show":"Anzeigen","Hide":"Ausblenden","Content can only be inserted into CKEditor in the WYSIWYG mode.":"Inhalt kann nur dann in den CKEditor eingegeben werden, wenn der WYSIWYG Modus aktiviert ist."}} };
