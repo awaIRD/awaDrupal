@@ -4,6 +4,7 @@ package = Media
 core = 7.x
 dependencies[] = image
 dependencies[] = libraries (>1.0)
+configure = admin/config/media/juicebox
 
 ; Local Class and Plugin Files
 files[] = includes/JuiceboxGalleryInterface.inc
@@ -29,9 +30,9 @@ files[] = tests/JuiceboxViewsCase.test
 test_dependencies[] = views
 test_dependencies[] = file_entity
 
-; Information added by Drupal.org packaging script on 2014-04-29
-version = "7.x-2.0-beta6"
+; Information added by Drupal.org packaging script on 2014-07-14
+version = "7.x-2.0"
 core = "7.x"
 project = "juicebox"
-datestamp = "1398743328"
+datestamp = "1405309428"
 
